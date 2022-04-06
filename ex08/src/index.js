@@ -13,6 +13,6 @@ function myObject() {
         console.log(error.message);
     }
     return MATH_CONSTANTS.E;
-}
+};
 const E = myObject();
 module.exports = myObject;

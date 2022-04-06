@@ -8,8 +8,8 @@ var school = {
 // Create function below this line
 function myFunction(name) {
     school.name = name;
-    return school
-}
+    return school;
+};
 console.log(myFunction("Paragon"));
 // End of function
 module.exports = { school, myFunction };
